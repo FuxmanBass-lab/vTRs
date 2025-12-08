@@ -40,7 +40,7 @@ This module handles the primary processing of BRB-seq data. It aligns raw reads 
     3.  **DGE Analysis (`DESeq2`):**
         * Performed using a pooled matrix design with batch as a covariate.
         * Significance cutoff: Benjamini–Hochberg FDR < 0.1.
-    4.  **Functional Analysis (`fgsea`):**
+    4.  **Functional Analysis (`clusterProfiler`):**
         * Database: MSigDB C2:CP-REACTOME.
         * **CSI Calculation:** Connection Specificity Index calculated from GSEA Normalized Enrichment Scores (NES) to quantify sample-sample similarity at the pathway level.
 
@@ -95,7 +95,6 @@ The analysis pipeline requires the following software and libraries:
 * **Genomics & Bioinformatics:**
     * `Seurat`
     * `DESeq2`
-    * `fgsea`
     * `msigdbr`
     * `tximport`
     * `GenomicFeatures`
