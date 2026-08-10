@@ -6,6 +6,14 @@ This repository contains the computational pipeline and analysis scripts for the
 
 The raw sequencing data and processed count matrices associated with this study are available at the Gene Expression Omnibus (**GSE312349**).
 
+## Code Availability and Citation
+
+This repository is archived on Zenodo. If you use this code, please cite the archived release:
+
+> Rottenberg, J. T., Liu, X., ElSadec, M. Y., Berenson, A., Soto-Ugaldi, L. F., Corban, J. E., Dexheimer, P. J., Hass, M., Santoso, C., Yin, C., Engin, B., Lane, R., Shah, S., Spirohn-Fitzgerald, K., Khetan, S., Lee, C.-C., Munoz-Esquivel, G., Li, Z., Martinez-Cuesta, L., Lu, Y., Trollmann, P., Hao, T., Yi, S. S., Sahni, N., Bulyk, M. L., Calderwood, M. A., Kottyan, L., Weirauch, M. T., Vidal, M., Raman, S. & Fuxman Bass, J. I. Viral transcriptional regulators extensively rewire host pathways through diverse mechanisms. *vTRs* https://doi.org/10.5281/zenodo.XXXXXXX (2026).
+
+Machine-readable citation metadata is in [CITATION.cff](./CITATION.cff); GitHub renders it under **Cite this repository** in the sidebar.
+
 ## Experimental Overview
 
 The code in this repository analyzes data generated through a multimodal interrogation of vTR function. This includes transcriptomic profiling, protein-DNA interaction assays, protein-protein interaction screens, and transcriptional activation assays.

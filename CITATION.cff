@@ -1,0 +1,103 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+type: software
+
+title: "Viral transcriptional regulators extensively rewire host pathways through diverse mechanisms"
+
+abstract: >-
+  Computational pipeline and analysis scripts for the functional
+  characterization of viral transcriptional regulators (vTRs), integrating
+  bulk RNA barcoding and sequencing (BRB-seq), yeast one/two-hybrid assays,
+  mammalian one-hybrid assays, and AlphaFold3 structural predictions to
+  analyze host gene expression changes, pathway enrichment, and functional
+  similarity between viral and human transcription factors.
+
+# Author order matches the manuscript. Affiliations are omitted; add them with
+# an `affiliation:` line per author if you want them on the Zenodo record.
+# ORCIDs can be added as `orcid: "https://orcid.org/0000-0000-0000-0000"`.
+# Zenodo reads this file when it archives a release, so this list becomes the
+# author list on the DOI record.
+authors:
+  - family-names: Rottenberg
+    given-names: "Jaice T."
+  - family-names: Liu
+    given-names: Xing
+  - family-names: ElSadec
+    given-names: "Mohamed Y."
+    orcid: "https://orcid.org/0009-0008-6949-4957"
+  - family-names: Berenson
+    given-names: Anna
+  - family-names: Soto-Ugaldi
+    given-names: "Luis F."
+  - family-names: Corban
+    given-names: "James E."
+  - family-names: Dexheimer
+    given-names: "Phillip J."
+  - family-names: Hass
+    given-names: Matthew
+  - family-names: Santoso
+    given-names: Clarissa
+  - family-names: Yin
+    given-names: Cailing
+  - family-names: Engin
+    given-names: Berkay
+  - family-names: Lane
+    given-names: Ryan
+  - family-names: Shah
+    given-names: Sakshi
+  - family-names: Spirohn-Fitzgerald
+    given-names: Kerstin
+  - family-names: Khetan
+    given-names: Shubham
+  - family-names: Lee
+    given-names: Cheng-Che
+  - family-names: Munoz-Esquivel
+    given-names: George
+  - family-names: Li
+    given-names: Zhaorong
+  - family-names: Martinez-Cuesta
+    given-names: Lucia
+  - family-names: Lu
+    given-names: Yunwei
+  - family-names: Trollmann
+    given-names: Philipp
+  - family-names: Hao
+    given-names: Tong
+  - family-names: Yi
+    given-names: "S. Stephen"
+  - family-names: Sahni
+    given-names: Nidhi
+  - family-names: Bulyk
+    given-names: "Martha L."
+  - family-names: Calderwood
+    given-names: "Michael A."
+  - family-names: Kottyan
+    given-names: Leah
+  - family-names: Weirauch
+    given-names: "Matthew T."
+  - family-names: Vidal
+    given-names: Marc
+  - family-names: Raman
+    given-names: Srivatsan
+  - family-names: "Fuxman Bass"
+    given-names: "Juan I."
+
+repository-code: "https://github.com/FuxmanBass-lab/vTRs"
+url: "https://github.com/FuxmanBass-lab/vTRs"
+license: MIT
+
+# Set these to match the GitHub release you tag before archiving to Zenodo.
+version: "v1.0.0"
+date-released: "2026-08-10"
+
+keywords:
+  - viral transcriptional regulators
+  - transcription factors
+  - BRB-seq
+  - differential gene expression
+  - protein-protein interaction
+  - protein-DNA interaction
+  - yeast one-hybrid
+  - yeast two-hybrid
+  - pathway enrichment
+  - host-virus interaction
